@@ -65,7 +65,6 @@ if(salario <= 12000) {
 } else if(salario <= 24000) {
 	salarioNetoAnual = salario - (salario * 0.08);
 	salarioNetoConHijos =  salario - (salario * 0.08 - 0.02);
-
 } else if (salario <= 34000) {
 	salarioNetoAnual = salario - (salario * 0.16);
 	salarioNetoConHijos =  salario - (salario * 0.14);
@@ -80,3 +79,5 @@ console.log('Salario neto mensual en 14 pagas: ' + salarioNetoAnual / 14);
 console.log('Salario neto mensual con hijos en 14 pagas: ' + salarioNetoConHijos / 14);
 console.log('Salario neto mensual en 12 pagas: ' + salarioNetoAnual / 12);
 console.log('Salario neto mensual con hijos en 12 pagas: ' + salarioNetoConHijos / 12);
+
+
